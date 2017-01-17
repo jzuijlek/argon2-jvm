@@ -21,7 +21,11 @@ public final class Argon2Factory {
         /**
          * Argon2d.
          */
-        ARGON2d
+        ARGON2d,
+        /**
+         * Argon2id.
+         */
+        ARGON2id
     }
 
     /**
@@ -68,6 +72,8 @@ public final class Argon2Factory {
                 return new Argon2i(saltLen, hashLen);
             case ARGON2d:
                 return new Argon2d(saltLen, hashLen);
+            case ARGON2id:
+                return new Argon2id(saltLen, hashLen);
             default:
                 throw new IllegalArgumentException("Invalid argon2 type");
         }

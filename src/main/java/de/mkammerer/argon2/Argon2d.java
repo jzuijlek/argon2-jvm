@@ -5,7 +5,7 @@ import de.mkammerer.argon2.jna.Size_t;
 import de.mkammerer.argon2.jna.Uint32_t;
 
 /**
- * Argon2i password hashing function.
+ * Argon2d password hashing function.
  */
 class Argon2d extends BaseArgon2 {
     /**

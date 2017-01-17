@@ -2,6 +2,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.2] - 2017-01-17
+### Added
+- Added support for Argon2id
+
 ## [2.1] - 2016-10-31
 ### Added
 - Added artifact without the pre-compiled argon2 libraries.
